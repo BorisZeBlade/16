@@ -1,9 +1,7 @@
-// Toggle the navbar
 document.querySelector('.burger').addEventListener('click', function () {
     document.querySelector('.navbar').classList.toggle('open');
 });
 
-// Get references to DOM elements
 const plus = document.getElementById("butplus");
 const minus = document.getElementById("butminus");
 const mult = document.getElementById("butmult");
